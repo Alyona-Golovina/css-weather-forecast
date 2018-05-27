@@ -1,0 +1,120 @@
+body {
+	background-color: #0098CF;
+	border: 10px solid #0080AF;
+	color: #FFFFFF;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+
+.forecast {
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 2px solid #FFFFFF;
+}
+
+.forecast li {
+	font-size: 14px;
+	display: inline-block;
+	border: 2px solid #FFFFFF;
+	text-align: center;
+}
+
+.forecast-weather {
+	opacity: 0.8;
+}
+
+.container {
+	max-width: 960px;
+	margin: 15px auto;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+.w-50 {
+	width: 50%;	
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.lisbon {
+	background-color: #0098CF;
+}
+
+.paris {
+	background-color: #00D2D0;
+}
+
+.belgrade {
+	background-color: #A36BA9;
+}
+
+.moscow {
+	background-color: #D3323A;
+}
+
+.tel-aviv {
+	background-color: #F45938;
+}
+
+.cair {
+	background-color: #FFCE5A;
+}
+
+.new-york {
+	background-color: #85D29A;
+}
+
+.new-delhi {
+	background-color: #549C9B;
+}
+
+.san-francisco {
+	background-color: #DE5396;
+}
+
+.tokyo {
+	background-color: #00A068;
+}
+
+.sydney {
+	background-color: #6A609A;
+}
+
+.icon {
+	font-size: 22px;
+}
+
+.main-icon {
+	margin-left: 5px;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 16px;
+	margin: 20px 0px;
+}
+
+.footer {
+	font-size: 12px;
+	margin: 20px 0px;
+}
+
+.forecast:hover li{
+	opacity: 0.5;
+}
+
+.forecast li:hover {
+	opacity: 1;
+}
+
